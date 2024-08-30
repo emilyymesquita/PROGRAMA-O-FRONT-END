@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+}
+
+header {
+    background: lightpink;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos do conteúdo principal */
+main {
+    padding: 1rem;
+}
+
+.secao1 {
+    background: lightpink;
+    padding: 1rem;
+    text-align: center;
+}
+
+.secao2 {
+    background: pink;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilos de Rodapé */
+footer {
+    background: lightpink;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Media queries para dispositivs móveis */
+@media (max-width: 768px) (
+    nav ul li {
+        display: block;
+        margin: 0.5 rem 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    article {
+        flex: 1 1 100%;
+    }
+)
